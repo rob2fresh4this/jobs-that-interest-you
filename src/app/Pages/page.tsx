@@ -85,28 +85,38 @@ function Page() {
         buttonHover: "hover:bg-[#264653]", // Darker teal for the hover effect
     };
 
-
-
-
-
-
     return (
         <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
-    <div className="text-2xl text-center md:text-4xl lg:text-5xl">
-        Jobs that Interest Robert G
-    </div>
-    <div className="text-lg text-gray-500 text-center md:text-xl lg:text-2xl mt-4">
-        Click on to view <span className="font-bold">document</span>  
-        <span className="text-blue-500"> copy of document</span>
-    </div>
-    <div className="text-lg text-gray-500 text-center md:text-xl lg:text-2xl mt-2">
-        Click to view my <span className="text-blue-500"> resume</span>
-    </div>
+            <div className="text-2xl text-center md:text-4xl lg:text-5xl">
+                Jobs that Interest Robert G
+            </div>
+            <div className="text-lg text-gray-500 text-center md:text-xl lg:text-2xl mt-4">
+                Click on to view <span className="font-bold">document </span>
+                <a
+                    href="/Professional Development Job Research Document.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span className="text-blue-500"> copy of document</span>
+                </a>
+            </div>
 
-    {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */}
+            <div className="text-lg text-gray-500 text-center md:text-xl lg:text-2xl mt-2">
+                Click to view my{" "}
+                <a
+                    href="/Resume Version 2.2.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span className="text-blue-500">resume</span>
+                </a>
+            </div>
 
-    <div className="flex flex-col items-center gap-6 p-6 w-full max-w-5xl">
-    <JobDetailsCard
+
+            {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */}
+
+            <div className="flex flex-col items-center gap-6 p-6 w-full max-w-5xl">
+                <JobDetailsCard
                     position="Software Engineer Intern"
                     company="Microsoft"
                     location="Redmond, WA"
@@ -211,113 +221,8 @@ function Page() {
                     <h3 className="text-lg">Why I'm Interested:</h3>
                     <p>NVIDIA is at the forefront of innovation in AI, gaming, and GPUs. I admire their bold mission and would love to grow technically by working alongside the minds behind today’s most advanced tech.</p>
                 </JobDetailsCard>
-                <JobDetailsCard
-                    position="Associate Software Engineer"
-                    company="LinkedIn"
-                    location="Sunnyvale, CA"
-                    salary="Competitive"
-                    link="https://careers.linkedin.com"
-                    theme={linkedinTheme}  // Applying the LinkedIn theme
-                >
-                    <h3 className="text-lg">Job Description:</h3>
-                    <p>Work on the LinkedIn platform to build features that help professionals connect, learn, and grow.</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Requirements:</h3>
-                    <p>Proficiency in JavaScript and React</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Experience with scalable systems and APIs</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Understanding of databases (SQL/NoSQL)</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
-                    <p>LinkedIn blends networking and career growth with a tech-driven environment. I admire their impact and would love to contribute to the tools that power careers like mine.</p>
-                </JobDetailsCard>
-                <JobDetailsCard
-                    position="Developer Advocate Intern"
-                    company="Vercel"
-                    location="Remote"
-                    salary="Competitive"
-                    link="https://vercel.com/careers"
-                    theme={vercelTheme}  // Applying the Vercel theme
-                >
-                    <h3 className="text-lg">Job Description:</h3>
-                    <p>Create content, demos, and documentation that help developers succeed with Vercel’s tools like Next.js.</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Requirements:</h3>
-                    <p>Experience with React and Next.js</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Excellent communication skills</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Interest in teaching, writing, or speaking</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
-                    <p>This role is a perfect blend of coding and communication. I’m already using Vercel for deployment and would love to help other devs grow too.</p>
-                </JobDetailsCard>
-                <JobDetailsCard
-                    position="Associate Frontend Engineer"
-                    company="Slack"
-                    location="Remote"
-                    salary="Competitive"
-                    link="https://slack.com/careers"
-                    theme={slackTheme}  // Applying the Slack theme
-                >
-                    <h3 className="text-lg">Job Description:</h3>
-                    <p>Build accessible and performance frontend components for Slack’s communication platform.</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Requirements:</h3>
-                    <p>Strong understanding of React and TypeScript</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Experience with web accessibility</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Team collaboration and Agile familiarity</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
-                    <p>Slack is where collaboration happens, and I love their commitment to remote-friendly, inclusive work. Their use of modern web tech is a great match for my stack.</p>
-                </JobDetailsCard>
-                <JobDetailsCard
-                    position="Student Developer Intern"
-                    company="GitHub"
-                    location="Remote"
-                    salary="Competitive"
-                    link="https://www.github.careers/careers-home"
-                    theme={githubTheme}  // Applying the GitHub theme
-                >
-                    <h3 className="text-lg">Job Description:</h3>
-                    <p>Contribute to GitHub’s codebase or education tools, help maintain open-source projects, and learn from senior devs.</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Requirements:</h3>
-                    <p>GitHub fluency and Git experience</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Strong frontend/backend fundamentals</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Interest in contributing to the dev community</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
-                    <p>As someone who uses GitHub every day, contributing to its ecosystem would be both fun and meaningful. It’s like helping build the place where developers live.</p>
-                </JobDetailsCard>
-                <JobDetailsCard
-                    position="Software Engineer Intern"
-                    company="DigitalOcean"
-                    location="Remote"
-                    salary="Competitive"
-                    link="https://www.digitalocean.com/careers/"
-                    theme={digitalOceanTheme}  // Applying the DigitalOcean theme
-                >
-                    <h3 className="text-lg">Job Description:</h3>
-                    <p>Work on developer-friendly cloud tools and platforms, supporting infrastructure and scalability.</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Requirements:</h3>
-                    <p>JavaScript/React proficiency</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Backend or API experience</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <p>Interest in cloud infrastructure or DevOps</p>
-                    <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
-                    <p>DigitalOcean simplifies complex cloud stuff — and that aligns with my desire to build efficient, easy-to-use systems as I grow into backend development.</p>
-                </JobDetailsCard>
-    </div>
-</div>
+            </div>
+        </div>
 
     );
 }

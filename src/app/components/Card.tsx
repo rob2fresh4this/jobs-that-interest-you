@@ -38,16 +38,16 @@ const JobDetailsCard: React.FC<JobDetailsCardProps> = ({
                     <div className="text-2xl sm:text-3xl md:text-4xl">{position}</div> {/* Adjusted text size for responsiveness */}
                 </div>
                 <div className="flex flex-col md:flex-row justify-between w-full mt-1">
-                    <div className={`text-lg ${theme.text} w-[25%] md:w-[100%]`}>{company}</div> {/* Adjusted widths for responsiveness */}
-                    <div className={`text-lg ${theme.text} w-[39%] md:w-fit md:text-center`}>{location}</div>
-                    <div className={`text-lg ${theme.text} w-[25%] md:w-[100%] md:text-right`}>{salary}</div>
+                    <div className={`text-lg ${theme.text} md:w-[25%] w-[100%]`}>{company}</div> {/* Adjusted widths for responsiveness */}
+                    <div className={`text-lg ${theme.text} md:w-[49%] w-fit md:text-center`}>{location}</div>
+                    <div className={`text-lg ${theme.text} md:w-[25%] w-[100%] md:text-right`}>{salary}</div>
                 </div>
             </div>
             <div className={`mt-4 text-sm ${theme.text} flex flex-col p-4 ${theme.box} rounded-lg w-full`}>
                 {children}
             </div>
             <a href={link} target="_blank" rel="noopener noreferrer">
-                <button className={`mt-4 px-4 py-2 w-[30%] sm:w-[40%] md:w-[30%] text-sm ${theme.button} text-white rounded-lg ${theme.buttonHover} transition duration-200`}>
+                <button className={`mt-4 px-4 py-2 w-[100%] sm:w-[40%] md:w-[30%] text-sm ${theme.button} text-white rounded-lg ${theme.buttonHover} transition duration-200`}>
                     More Details
                 </button>
             </a>
