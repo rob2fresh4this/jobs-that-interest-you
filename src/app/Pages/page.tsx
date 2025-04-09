@@ -97,7 +97,7 @@ function Page() {
                     <div className="pt-0.5 pb-0.5"></div>
                     <p>Passion for learning and collaboration</p>
                     <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
+                    <h3 className="text-lg">{`Why I'm Interested:`}</h3>
                     <p>Microsoft has a strong culture of mentorship, hybrid opportunities, and an emphasis on growth. As a C# developer, it aligns perfectly with my current training.</p>
                 </JobDetailsCard>
 
@@ -110,7 +110,7 @@ function Page() {
                     theme={twitchTheme} // Applying the Twitch theme
                 >
                     <h3 className="text-lg">Job Description:</h3>
-                    <p>Build user-facing features with React and TypeScript for Twitch's creator tools.</p>
+                    <p>Build user-facing features with React and TypeScript for {`Twitch's`} creator tools.</p>
                     <div className="pt-0.5 pb-0.5"></div>
                     <h3 className="text-lg">Requirements:</h3>
                     <p>1+ year React/TypeScript</p>
@@ -119,8 +119,8 @@ function Page() {
                     <div className="pt-0.5 pb-0.5"></div>
                     <p>GitHub and teamwork experience</p>
                     <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
-                    <p>Twitch is known for its tech-forward culture and creative platform. It's a place I'd grow both technically and creatively.</p>
+                    <h3 className="text-lg">{`Why I'm Interested:`}</h3>
+                    <p>Twitch is known for its tech-forward culture and creative platform. {`It's`} a place {`I'd`} grow both technically and creatively.</p>
                 </JobDetailsCard>
 
                 <JobDetailsCard
@@ -141,7 +141,7 @@ function Page() {
                     <div className="pt-0.5 pb-0.5"></div>
                     <p>Bonus: familiarity with gaming culture</p>
                     <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
+                    <h3 className="text-lg">{`Why I'm Interested:`}</h3>
                     <p>Combining my technical interests with gaming is a dream role. Riot supports creativity and innovation.</p>
                 </JobDetailsCard>
 
@@ -163,7 +163,7 @@ function Page() {
                     <div className="pt-0.5 pb-0.5"></div>
                     <p>Bonus: Next.js or Tailwind experience</p>
                     <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
+                    <h3 className="text-lg">{`Why I'm Interested:`}</h3>
                     <p>OpenAI’s mission and the chance to build meaningful products at the edge of innovation is motivating.</p>
                 </JobDetailsCard>
 
@@ -185,7 +185,7 @@ function Page() {
                     <div className="pt-0.5 pb-0.5"></div>
                     <p>Strong problem-solving skills</p>
                     <div className="pt-0.5 pb-0.5"></div>
-                    <h3 className="text-lg">Why I'm Interested:</h3>
+                    <h3 className="text-lg">{`Why I'm Interested:`}</h3>
                     <p>NVIDIA is at the forefront of innovation in AI, gaming, and GPUs. I admire their bold mission and would love to grow technically by working alongside the minds behind today’s most advanced tech.</p>
                 </JobDetailsCard>
             </div>
