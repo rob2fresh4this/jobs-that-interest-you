@@ -36,3 +36,6 @@ Create a website with **Next.js** and **TypeScript** about five places you want 
 [jobs that Interest you]
 
 ## Peer Review:
+Thao Vang
+"I like the touch with resume link for people to see. I think the only question that wasn't really addressed was what did you hypotheically want to achieve. I like the button with more details rather than just a hyperlink. 
+Otherwise everything was simple, nice and to the point."
